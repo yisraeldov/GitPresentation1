@@ -42,7 +42,7 @@ Think about WYSIWYG HTML editors.
 
 * create a repository 
 * create some commits
-* create some brannches
+* create some branches
 
 Easy stuff
 
@@ -92,7 +92,7 @@ Non linear history, but more verbose about changes.
 ## Squash - not a real merge
 
 Makes 1 new commit with all the changes 
-of the branch sqashed together.
+of the branch squashed together.
 
 *Throws away history.*
 
@@ -123,7 +123,7 @@ Can cause issues with future merges.
 
 ## Remotes can be anything
 
-clone sets the orign remote automatically 
+clone sets the origin remote automatically 
 
 ^
 ## tracking branches
@@ -146,9 +146,9 @@ git branch -u origin/branch
 ^
 ## Push and Pull are merges
 
-Really a fetch followed by a pull
+Really a fetch followed by a merge
 
---
+---
 # REMOTES DEMO
 
 --- 
@@ -184,7 +184,7 @@ Lets you go back and change history
 
 # Git work flows
 
-## Gitflow
+## Git-flow
 
 complex
 good for physical releases
@@ -194,10 +194,12 @@ good for physical releases
 simple
 good for SAS
 
+---
+
 ## GitLab Flow
 
 simple or complex as needed 
-bassic for SAS
+basic for SAS
 more complex for physical releases
 
 ----
@@ -213,8 +215,8 @@ Work flow example:
 - When done merge into `develop`
 - When ready to release 
   - make a release branch 
-  - make bugfixes
-    - backport to `master` and `develop`
+  - make bug-fixes
+    - back-port to `master` and `develop`
   - finish release 
     - Tag
 
@@ -244,7 +246,7 @@ Good for *CI* or  *CD*
 
 Can use `release` branch and tags for physical product.
 
-* Cherrypick bugfixes from master to 
+* Cherry-pick bug-fixes from master to 
 
 ---
 
@@ -253,7 +255,7 @@ All of the above use merges and not rebase
 ^
 # Atlasian 
 
-Same as *github* but rebase to master instead of merge
+Same as *GitHub* but rebase to master instead of merge
 
 nice history but ...
 
